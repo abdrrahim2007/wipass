@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="teal_700">#ff018786</color>
+    <color name="colorAccent">#00bcd4</color>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#1976d2</color>
+    <color name="green_connected">#4caf50</color>
+    <color name="red_disconnected">#f44336</color>
+    <color name="signal_excellent">#00c853</color>
+    <color name="signal_inactive">#e0e0e0</color>
+    <color name="signal_moderate">#ffc107</color>
+    <color name="signal_weak">#e53935</color>
+    <color name="splash_background">#0a1929</color>
+</resources>

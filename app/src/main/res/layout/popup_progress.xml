@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardBackgroundColor="#1e293b"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="8dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="false"
+    app:strokeColor="#334155"
+    app:strokeWidth="1dp">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#1e293b"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineProvider="background"
+        android:clipToOutline="true">
+        <ProgressBar
+            android:layout_gravity="center_horizontal"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"
+            android:indeterminate="true"
+            android:indeterminateTint="#60a5fa"
+            style="?android:attr/progressBarStyle"/>
+        <TextView
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="جاري الاتصال"
+            android:fontFamily="@font/tajwal"/>
+        <TextView
+            android:textSize="15sp"
+            android:textColor="#94a3b8"
+            android:id="@+id/popup_progress_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="جاري إعداد الاتصال الرجاء الانتظار..."
+            android:fontFamily="@font/tajwal"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,11 @@
+package a;
+
+import java.util.Random;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class iq extends ThreadLocal {
+    @Override // java.lang.ThreadLocal
+    public final Object initialValue() {
+        return new Random();
+    }
+}
