@@ -1,2 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+
+    <!-- M3 Button group / toggle button custom color attrs -->
+    <attr name="colorContainerChecked" format="color|reference"/>
+    <attr name="colorContainerUnchecked" format="color|reference"/>
+    <attr name="colorOnContainerChecked" format="color|reference"/>
+    <attr name="colorOnContainerUnchecked" format="color|reference"/>
+
+    <!-- M3 Button group child size change (widthChange attr used in xml/m3_button_group_child_size_change.xml) -->
+    <attr name="widthChange" format="fraction"/>
+
+    <!-- M3 Shape corner size attr (used in xml/m3_split_button_inner_corner_size_state_list.xml) -->
+    <attr name="cornerSize" format="dimension|fraction"/>
+
+    <!-- M3 theme attrs that may not be in older MaterialComponents themes -->
+    <attr name="colorContainer" format="color|reference"/>
+    <attr name="colorOnContainer" format="color|reference"/>
+    <attr name="colorSurfaceContainer" format="color|reference"/>
+    <attr name="colorSurfaceContainerHighest" format="color|reference"/>
+    <attr name="colorTertiaryContainer" format="color|reference"/>
+    <attr name="colorOnTertiaryContainer" format="color|reference"/>
+    <attr name="colorOutlineVariant" format="color|reference"/>
+    <attr name="colorSurfaceInverse" format="color|reference"/>
+    <attr name="colorOnSurfaceInverse" format="color|reference"/>
+    <attr name="elevationOverlayColor" format="color|reference"/>
+
+    <!-- Motion attrs -->
+    <attr name="motionDurationShort1" format="integer"/>
+    <attr name="motionDurationShort2" format="integer"/>
+    <attr name="motionDurationShort3" format="integer"/>
+    <attr name="motionDurationShort4" format="integer"/>
+    <attr name="motionDurationMedium1" format="integer"/>
+    <attr name="motionDurationMedium2" format="integer"/>
+    <attr name="motionDurationMedium4" format="integer"/>
+    <attr name="motionDurationLong2" format="integer"/>
+    <attr name="motionEasingEmphasizedInterpolator" format="reference"/>
+    <attr name="motionEasingEmphasizedAccelerateInterpolator" format="reference"/>
+    <attr name="motionEasingEmphasizedDecelerateInterpolator" format="reference"/>
+    <attr name="motionEasingStandardInterpolator" format="reference"/>
+    <attr name="motionEasingLinearInterpolator" format="reference"/>
+
+    <!-- Material search view -->
+    <attr name="materialSearchViewToolbarHeight" format="dimension"/>
+    <attr name="materialSearchViewToolbarStyle" format="reference"/>
+    <attr name="materialSearchViewPrefixStyle" format="reference"/>
+    <attr name="materialDisplayDividerStyle" format="reference"/>
+
+    <!-- Side sheet -->
+    <attr name="sideSheetModalStyle" format="reference"/>
+
+    <!-- Calendar -->
+    <attr name="materialCalendarDay" format="reference"/>
+    <attr name="materialCalendarDayOfWeekLabel" format="reference"/>
+    <attr name="materialCalendarHeaderCancelButton" format="reference"/>
+    <attr name="materialCalendarHeaderConfirmButton" format="reference"/>
+    <attr name="materialCalendarHeaderDivider" format="reference"/>
+    <attr name="materialCalendarHeaderLayout" format="reference"/>
+    <attr name="materialCalendarHeaderSelection" format="reference"/>
+    <attr name="materialCalendarHeaderTitle" format="reference"/>
+    <attr name="materialCalendarHeaderToggleButton" format="reference"/>
+    <attr name="materialCalendarMonth" format="reference"/>
+    <attr name="materialCalendarMonthNavigationButton" format="reference"/>
+    <attr name="materialCalendarYearNavigationButton" format="reference"/>
+
+    <!-- Time picker -->
+    <attr name="materialTimePickerTitleStyle" format="reference"/>
+
+    <!-- Alert dialog -->
+    <attr name="materialAlertDialogBodyTextStyle" format="reference"/>
+    <attr name="materialAlertDialogButtonSpacerVisibility" format="integer"/>
+    <attr name="materialAlertDialogTitleIconStyle" format="reference"/>
+    <attr name="materialAlertDialogTitlePanelStyle" format="reference"/>
+    <attr name="materialAlertDialogTitleTextStyle" format="reference"/>
+
+</resources>
